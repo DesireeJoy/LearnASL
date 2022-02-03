@@ -1,0 +1,12 @@
+{
+  "name": "asl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./pages/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd public & live-server --port=1234 --entry-file=index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
