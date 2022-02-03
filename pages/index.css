@@ -83,7 +83,6 @@ li {
   justify-items: center;
 }
 .container {
-  background-color: #fff;
   width: 100%;
   color: black;
   display: flex;
@@ -93,6 +92,9 @@ li {
   padding: 20px 0;
   position: relative;
   min-height: 250px;
+}
+.container__reasons {
+  background-color: #fff;
 }
 .card__item {
   max-width: 50%;
@@ -136,8 +138,8 @@ li {
   margin: 1rem;
   padding: 1rem;
   width: 15rem;
-  background-color: dodgerblue;
-  color: white;
+  background-color: #fff;
+  color: dodgerblue;
   border-radius: 25px;
   flex-grow: 0;
   flex-shrink: 0;
