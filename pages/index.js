@@ -31,7 +31,7 @@ influencers.map((i) => {
   var li = document.createElement("li");
   getContainer.appendChild(li);
   console.log("i");
-  let personHTML = `<IMG class='influencer__img' SRC='../images/${i.pic}.png' alt='influencer photo'/><div class='influencer__name'>${i.name}</div><div class='influencer__desc'>${i.desc}</div><a class='influencer__link' href='${i.link}'>${i.linkType}</a>`;
+  let personHTML = `<IMG class='influencer__img' SRC='./images/${i.pic}.png' alt='influencer photo'/><div class='influencer__name'>${i.name}</div><div class='influencer__desc'>${i.desc}</div><a class='influencer__link' href='${i.link}'>${i.linkType}</a>`;
   li.innerHTML = personHTML;
   li.classList.add("influencers__item");
 });
