@@ -1,31 +1,36 @@
 "use strict";
 import { reasons, influencers } from "../constants/Constants.js";
 
+function handleRandomClick(e) {
+  e.preventDefault;
+  let randomItem = selectItem(reasons);
+
+  let cardData = {
+    title: randomItem.reason,
+    desc: randomItem.desc,
+    link: randomItem.link,
+  };
+  const titleEl = document.querySelector(".card__title");
+  const descEl = document.querySelector(".card__desc");
+  const linkEl = document.querySelector(".card__link");
+  titleEl.textContent = cardData.title;
+  descEl.textContent = cardData.desc;
+
+  if (randomItem.link) {
+    linkEl.classList.add("visible");
+    linkEl.href = cardData.link;
+  } else {
+    linkEl.classList.remove("visible");
+  }
+}
 function selectItem(reasons) {
   let item = reasons[Math.round(Math.random() * (reasons.length - 1))];
   return item;
 }
 
-let randomItem = selectItem(reasons);
-
-let cardData = {
-  title: randomItem.reason,
-  desc: randomItem.desc,
-  link: randomItem.link,
-};
-const titleEl = document.querySelector(".card__title");
-const descEl = document.querySelector(".card__desc");
-const linkEl = document.querySelector(".card__link");
-
-if (randomItem.link) {
-  linkEl.classList.add("visible");
-  linkEl.href = cardData.link;
-} else {
-}
-
-titleEl.textContent = cardData.title;
-descEl.textContent = cardData.desc;
-
+const eventListener = document
+  .querySelector(".card__button")
+  .addEventListener("click", handleRandomClick);
 const getContainer = document.querySelector(".influencers__container");
 influencers.map((i) => {
   var li = document.createElement("li");
@@ -36,5 +41,4 @@ influencers.map((i) => {
   li.classList.add("influencers__item");
 });
 
-console.log(cardData);
 selectItem(reasons);
