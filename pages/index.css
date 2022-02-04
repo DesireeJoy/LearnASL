@@ -83,7 +83,7 @@ li {
   color: black;
   display: flex;
   flex-direction: row;
-  justify-content: space-center;
+  justify-content: center;
   align-items: center;
   padding: 20px 0;
   position: relative;
