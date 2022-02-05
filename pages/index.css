@@ -114,13 +114,16 @@ li {
 }
 .card__button {
   height: 4vh;
-  width: 24em;
+  max-width: 24em;
+
   background-color: #2d332f;
   border-radius: 25px;
   color: #fff;
   border: none;
   margin-top: 2vh;
   box-shadow: 0em 0.15em 0.5em #888888;
+  padding: 1em;
+  padding-bottom: 2.25em;
 }
 .card__button:hover {
   border: 1px solid #000;
@@ -141,7 +144,7 @@ li {
 }
 .card__desc {
   font-weight: 500;
-  padding-top: 10px;
+  padding-top: 1em;
   font-size: 1.5em;
 }
 
@@ -270,7 +273,7 @@ li {
     justify-content: center;
   }
   .page__title {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
   .page__ribbon {
     height: 100px;
@@ -292,5 +295,14 @@ li {
   .influencer__name {
     font-size: 1.25em;
     padding: 0;
+  }
+  .card__title {
+    font-weight: 600;
+    font-size: 1.25em;
+  }
+  .card__desc {
+    font-weight: 500;
+    padding-top: 0.5em;
+    font-size: 1em;
   }
 }
