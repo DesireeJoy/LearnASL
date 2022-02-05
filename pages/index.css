@@ -190,6 +190,7 @@ li {
 }
 .influencer__name {
   font-size: 1.75em;
+  text-decoration: underline;
   margin: 0;
   margin-bottom: 1vh;
   padding-left: 25px;
