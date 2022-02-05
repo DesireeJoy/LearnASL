@@ -10,9 +10,11 @@ function handleRandomClick(e) {
     desc: randomItem.desc,
     link: randomItem.link,
   };
+
   const titleEl = document.querySelector(".card__title");
   const descEl = document.querySelector(".card__desc");
   const linkEl = document.querySelector(".card__link");
+  
   titleEl.textContent = cardData.title;
   descEl.textContent = cardData.desc;
 

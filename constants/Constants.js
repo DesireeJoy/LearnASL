@@ -53,7 +53,7 @@ export const reasons = [
     id: 10,
     reason: "Improve your visualization skills",
     desc:
-      "Check out the study linked below by geologist Michele Cooke. I know, a geologist sounds weird, but check it out!",
+      "Check out the study linked below by geologist Michele Cooke. It will make sense once you read it.",
     link:
       "https://www.livescience.com/460-sign-language-improves-mental-abilities.html",
   },
@@ -78,7 +78,7 @@ export const influencers = [
   {
     name: "Chrissy",
     desc:
-      "Deaf,cochlear implant recipient, who makes funny shorts related to deafness.",
+      "Deaf, cochlear implant recipient, who makes funny shorts related to deafness.",
     pic: "chrissy",
     linkType: "TikTok",
     link: "https://www.tiktok.com/@chrissycanthearyou/",
