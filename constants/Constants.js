@@ -120,7 +120,7 @@ export const influencers = [
     link: "https://www.tiktok.com/@beckyyhelen/",
   },
   {
-    name: "@andyispleasants",
+    name: "Andy Pleasants",
     desc: "Deaf artist and craniofacial advocate.",
     pic: "drunkcrier",
     linkType: "TikTok",
