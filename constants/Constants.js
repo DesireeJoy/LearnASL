@@ -129,7 +129,7 @@ export const influencers = [
   {
     name: "Dallin Smuin",
     desc:
-      "A cochlear user, educates audiences about deafness and creates simple ASL tutorials",
+      "Deaf, educates audiences about deafness and creates simple ASL tutorials",
     pic: "dallin",
     linkType: "TikTok",
     link: "https://www.tiktok.com/@dallinsmuin",

@@ -9,7 +9,7 @@ body {
 }
 .page {
   width: 90%;
-  background-color: dodgerblue;
+  background-color: #2d332f;
   min-height: 100vh;
   margin: 0 auto;
 }
@@ -35,7 +35,7 @@ li {
   padding: 0;
   position: relative;
   z-index: 1;
-  color: #fff;
+  color: #f0bd18;
   font-size: 3em;
   padding-left: 1em;
 }
@@ -48,7 +48,7 @@ li {
   right: 0;
   bottom: 0;
   width: 50%;
-  background: #073252;
+  background: #000;
   border-radius: 0;
   z-index: -1;
   transform: scaleX(0.015);
@@ -85,14 +85,19 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: space-between;
   padding: 20px 0;
   position: relative;
-  height: 25vh;
+  height: 100%;
 }
 .container__reasons {
   background-color: #fff;
+  height: 25vh;
 }
+.container__influencers {
+  height: 45vh;
+}
+
 .card__item {
   max-width: 75%;
   display: flex;
@@ -102,26 +107,26 @@ li {
   overflow: none;
   padding: 0 15px;
   text-align: center;
-  height: 22vh;
+  overflow: hidden;
 }
 .card__button {
   height: 4vh;
   width: 24em;
-  background-color: dodgerblue;
+  background-color: #2d332f;
   border-radius: 25px;
-  color: white;
+  color: #fff;
   border: none;
   margin-top: 2vh;
   box-shadow: 0em 0.15em 0.5em #888888;
 }
 .card__button:hover {
-  border: 1px solid darkblue;
-  background-color: dodgerblue;
+  border: 1px solid #000;
+  background-color: 4a4947;
   box-shadow: 0em 0em 0.75em #888888;
 }
 .card__button:active {
-  border: 1px solid dodgerblue;
-  background-color: #025fa3;
+  border: 1px solid grey;
+  background-color: #787878;
 }
 .card__buton:focus {
   border: 1px solid #fff;
@@ -142,14 +147,13 @@ li {
 .influencers__container {
   position: relative;
   width: 85%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
-  margin-top: 0.75em;
-  overflow: hidden;
+
   overflow-x: scroll;
-  max-height: 250px;
   flex-grow: 0;
   flex-shrink: 0;
 }
@@ -163,9 +167,9 @@ li {
   padding: 0.75em;
   padding-left: 1.5em;
   width: 10vw;
-  min-width: 150px;
+  min-width: 300px;
   background-color: #fff;
-  color: dodgerblue;
+  color: black;
   border-radius: 25px;
 }
 .influencers__item:hover {
@@ -179,27 +183,33 @@ li {
   margin: 0;
   margin-bottom: 2vh;
 }
+.influencers__id {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .influencer__name {
-  color: black;
-  font-size: 1em;
+  color: #000;
+  font-size: 1.75em;
   margin: 0;
   margin-bottom: 1vh;
+  padding-left: 25px;
 }
 .influencer__desc {
-  font-size: 0.75em;
+  font-size: 1.5em;
+  line-height: 1.5em;
   margin: 0;
   margin-bottom: 1vh;
 }
 .influencer__link {
   text-decoration: none;
-  min-width: 3em;
+  width: 100%;
   min-height: 1em;
-  background-color: dodgerblue;
+  background-color: #000;
   border-radius: 25px;
   text-align: center;
   font-size: 1em;
   color: #fff;
-  padding: 0.5em;
   transition: transform 150ms ease-in;
 }
 .influencer__link:hover {
