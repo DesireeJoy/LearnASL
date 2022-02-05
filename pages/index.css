@@ -97,6 +97,7 @@ li {
 .container__reasons {
   background-color: #fff;
   min-height: 30vh;
+  z-index: 1;
 }
 .container__influencers {
   min-height: 45vh;
@@ -108,10 +109,8 @@ li {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  overflow: none;
   padding: 0 15px;
   text-align: center;
-  overflow: hidden;
 }
 .card__button {
   height: 4vh;
@@ -194,6 +193,7 @@ li {
   color: black;
   border-radius: 25px;
   margin-bottom: 3em;
+  margin-top: 1em;
 }
 .influencers__item:hover {
   box-shadow: 0px 0px 1em #f0bd18;
@@ -207,8 +207,9 @@ li {
   border: 2px solid #fff;
   position: absolute;
   left: -2em;
-  top: -0.75em;
+  top: -1em;
   border-radius: 50%;
+  z-index: 2;
 }
 .influencers__id {
   position: relative;
@@ -246,7 +247,6 @@ li {
   text-align: center;
   font-size: 1em;
   color: #fff;
-  padding: 1em;
 }
 .influencer__link:hover {
   color: #f0bd18;
