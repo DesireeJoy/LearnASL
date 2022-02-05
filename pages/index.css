@@ -189,13 +189,13 @@ li {
   align-items: center;
 }
 .influencer__name {
-  color: #000;
   font-size: 1.75em;
   margin: 0;
   margin-bottom: 1vh;
   padding-left: 25px;
 }
 .influencer__desc {
+  color: #2d332f;
   font-size: 1.5em;
   line-height: 1.5em;
   margin: 0;
