@@ -63,7 +63,7 @@ export const influencers = [
   {
     name: "Jon Urquhart",
     desc:
-      "A son of a deafblind father Jon is a full time interpreter and an accesibility advocate.",
+      "Hearing with deafblind father. Full time interpreter and an accesibility advocate.",
     pic: "drunkcrier",
     linkType: "TikTok",
     link: "https://www.tiktok.com/@drunkcrier/",
@@ -122,7 +122,7 @@ export const influencers = [
   {
     name: "Andy Pleasants",
     desc: "Deaf artist and craniofacial advocate.",
-    pic: "drunkcrier",
+    pic: "andyispleasants",
     linkType: "TikTok",
     link: "https://www.tiktok.com/@andyispleasants",
   },
