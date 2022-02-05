@@ -4,7 +4,7 @@ Box sizing rules *,
   box-sizing: border-box;
 }
 
-/* Remove default margin */
+/* emove default margin */
 body,
 h1,
 h2,
@@ -18,7 +18,7 @@ dd {
   margin: 0;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+/* emove list styles on ul, ol elements with a list role, which suggests default styling will be emoved */
 ul[role="list"],
 ol[role="list"] {
   list-style: none;
@@ -56,7 +56,7 @@ select {
   font: inherit;
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
+/* emove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
