@@ -304,3 +304,7 @@ li {
     font-size: 1em;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  
+}
