@@ -12,6 +12,7 @@ body {
   background-color: #2d332f;
   min-height: 100vh;
   margin: 0 auto;
+  overflow: hidden;
 }
 .page__ribbon {
   height: 200px;
@@ -120,15 +121,15 @@ li {
   border: none;
   padding: 1em;
   padding-bottom: 2.25em;
+  border-top: 1px solid #4a4947;
 }
 .card__button:hover {
-  border: 1px solid #000;
-  background-color: 4a4947;
+  background-color: #4a4947;
   box-shadow: 0em 0em 0.75em #000;
 }
 .card__button:active {
   border: 1px solid grey;
-  background-color: #787878;
+  background-color: #2d332f;
 }
 .card__buton:focus {
   border: 1px solid #fff;
