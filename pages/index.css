@@ -96,7 +96,7 @@ li {
 }
 .container__reasons {
   background-color: #fff;
-  min-height: 30vh;
+  min-height: 20vh;
   z-index: 1;
 }
 .container__influencers {
@@ -115,7 +115,6 @@ li {
 .card__button {
   height: 4vh;
   max-width: 24em;
-
   background-color: #2d332f;
   border-radius: 25px;
   color: #fff;
@@ -149,22 +148,20 @@ li {
 }
 
 .visible {
-  display: block;
+  display: block !important;
 }
 .card__link {
   text-decoration: none;
-  width: 100%;
   min-height: 1em;
-  background-color: #000;
   border-radius: 25px;
   text-align: center;
   font-size: 1em;
-  color: #fff;
+  color: darkslategrey;
   transition: transform 150ms ease-in;
   display: none;
+  text-transform: uppercase;
 }
 .card__link:hover {
-  color: white;
   transform: scale(1.25);
   transition: transform 150ms ease-in;
   text-decoration: none;

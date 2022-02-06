@@ -19,7 +19,8 @@ export const reasons = [
   {
     id: 4,
     reason: "Communicate in noisy situations.",
-    desc: "What?!? What?!! I can't hear you!",
+    desc:
+      "What?!? What?!! I can't hear you! Well now you don't have to. Crowded shopping malls? Don't want to leave the coffee line to ask someone what they wanted again? You can sign from across the room.",
   },
   {
     id: 5,
@@ -30,7 +31,7 @@ export const reasons = [
     id: 6,
     reason: "Learning a second Language stimulates the brain.",
     desc:
-      "Learning a language boosts our concentration, listening and thinking skills!",
+      "Learning a language boosts concentration, listening and thinking skills!",
   },
   {
     id: 7,
@@ -40,9 +41,8 @@ export const reasons = [
   },
   {
     id: 8,
-    reason: "Great for those with Anxiety or Autism",
-    desc:
-      "ASL provides a way to communicate for those who have conditions that cause them to prefer to be non-verbal.",
+    reason: "Don't wake the baby.",
+    desc: "A great way to communicate without disturbing your infant!",
   },
   {
     id: 9,
