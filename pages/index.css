@@ -119,7 +119,7 @@ li {
   border-radius: 25px;
   color: #fff;
   border: none;
-  margin-top: 2vh;
+  margin-bottom: 2vh;
   box-shadow: 0em 0.15em 0.5em #888888;
   padding: 1em;
   padding-bottom: 2.25em;
@@ -306,5 +306,4 @@ li {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  
 }
