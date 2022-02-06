@@ -171,6 +171,7 @@ li {
   background-color: #025fa3;
 }
 .influencers__container {
+  margin-top: 2em;
   position: relative;
   width: 85%;
   display: flex;
