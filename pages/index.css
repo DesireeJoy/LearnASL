@@ -99,6 +99,7 @@ li {
   background-color: #fff;
   min-height: 20vh;
   z-index: 1;
+  padding: 5em;
 }
 .container__influencers {
   min-height: 45vh;
@@ -119,9 +120,17 @@ li {
   background-color: #2d332f;
   color: #fff;
   border: none;
-  padding: 1em;
-  padding-bottom: 2.25em;
+  padding: 2em;
   border-top: 1px solid #4a4947;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card__icon {
+  margin-left: 10px;
+  height: 14px;
+  width: 14px;
 }
 .card__button:hover {
   background-color: #4a4947;

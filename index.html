@@ -29,28 +29,31 @@
         />
       </header>
 
-      <main aria-label="main content" class="main">
-        <button aria-label="cycle new reason" class="card__button">
+      <main class="main">
+        <button
+          aria-label="cycle new reason"
+          aria-controls="reasons-area"
+          class="card__button"
+        >
           Need another reason?
+          <img
+            src="./images/refresh-white.svg"
+            class="card__icon"
+            alt="refresh icon"
+          />
         </button>
 
-        <ul
-          class="container container__reasons"
-          aria-label="reasons to learn ASL"
-        >
-          <li class="card__item">
+        <div class="container container__reasons">
+          <article class="card__item" id="reasons-area">
             <h2 class="card__title">To provide access for ASL users.</h2>
             <h3 class="card__desc">You really should.</h3>
             <a class="card__link" target="_blank" href="">link</a>
-          </li>
-        </ul>
+          </article>
+        </div>
 
-        <section class="container container__influencers">
-          <ul
-            class="influencers__container"
-            aria-label="ASL influencers and teachers"
-          ></ul>
-        </section>
+        <div class="container container__influencers">
+          <ul class="influencers__container"></ul>
+        </div>
       </main>
     </div>
 
