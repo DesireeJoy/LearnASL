@@ -8,8 +8,5 @@
     "server": "cd public & live-server --port=1234 --entry-file=index.html"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "feather-icons": "^4.28.0"
-  }
+  "license": "ISC"
 }

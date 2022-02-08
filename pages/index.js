@@ -4,7 +4,8 @@ import { reasons, influencers } from "../constants/Constants.js";
 function handleRandomClick(e) {
   e.preventDefault;
   let randomItem = selectItem(reasons);
-
+  let rotImg = document.querySelector(".card__icon");
+  rotImg.classList.add("rotate");
   let cardData = {
     title: randomItem.reason,
     desc: randomItem.desc,
@@ -24,6 +25,9 @@ function handleRandomClick(e) {
   } else {
     linkEl.classList.remove("visible");
   }
+  setTimeout(function () {
+    rotImg.classList.remove("rotate");
+  }, 1000);
 }
 function selectItem(reasons) {
   let item = reasons[Math.round(Math.random() * (reasons.length - 1))];

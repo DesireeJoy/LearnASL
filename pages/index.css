@@ -131,6 +131,31 @@ li {
   margin-left: 10px;
   height: 14px;
   width: 14px;
+  -webkit-transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+}
+.rotate {
+  /* -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); */
+  animation-name: rotate1;
+  animation-duration: 2s;
+}
+@-webkit-keyframes rotate1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  70% {
+    -webkit-transform: rotate(180deg);
+    opacity: 0;
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .card__button:hover {
   background-color: #4a4947;
