@@ -32,7 +32,7 @@ li {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 20vh;
+  min-height: 20vh;
   overflow: hidden;
 }
 .page__title {
@@ -135,13 +135,11 @@ li {
   transition: transform 1s ease-in-out;
 }
 .rotate {
-  /* -ms-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg); */
   animation-name: rotate1;
   animation-duration: 2s;
 }
-@-webkit-keyframes rotate1 {
+
+@keyframes rotate1 {
   0% {
     -webkit-transform: rotate(0deg);
   }
